@@ -1,1 +1,1 @@
-# on_ida_python
+# practice ida python
