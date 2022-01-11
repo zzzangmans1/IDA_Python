@@ -1,0 +1,8 @@
+idc.here() : 현재 주소를 반환해준다.
+
+idc.get_screen_ea() : 현재 주소를 반환해준다.
+
+ida_ida.inf_get_min_ea() : 최소 주소를 반환해준다.
+
+ida_ida.inf_get_max_ea() : 최대 주소를 반환해준다.
+
