@@ -6,3 +6,20 @@ ida_ida.inf_get_min_ea() : 최소 주소를 반환해준다.
 
 ida_ida.inf_get_max_ea() : 최대 주소를 반환해준다.
 
+idc.print_insn_mnem(address) : 주소에 명령어를 반환해준다.
+
+idc.GetDisasm(address) : 주소의 어셈블리어를 반환해준다.
+
+idc.find_binary(addr, flag, byte) : 주소부터 플래그 조건에 따라 byte를 찾아 주소를 반환해준다.
+FLAG = [
+SEARCH_UP = 0
+SEARCH_DOWN = 1   # 위 또는 아래 방향
+SEARCH_NEXT = 2     # 다음 찾기
+SEARCH_CASE = 4     # 대소문자 구별 여부
+SEARCH_REGEX = 8
+SEARCH_NOBRK = 16
+SEARCH_NOSHOW = 32
+SEARCH_UNICODE = 64 **
+SEARCH_IDENT = 128 **
+SEARCH_BRK = 256 ** ]
+
