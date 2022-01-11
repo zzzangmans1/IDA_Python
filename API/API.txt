@@ -10,6 +10,15 @@ idc.print_insn_mnem(address) : 주소에 명령어를 반환해준다.
 
 idc.GetDisasm(address) : 주소의 어셈블리어를 반환해준다.
 
+idc.get_func_name(address) : 주소의 함수 이름을 반환해준다.
+
+idc.next_head(address) : 주소의 다음 명령 주소를 반환해준다.
+
+idc.prev_head(address) : 주소의 이전 명령 주소를 반환해준다.
+
+/* 
+  find
+*/
 idc.find_binary(addr, flag, byte) : 주소부터 플래그 조건에 따라 byte를 찾아 주소를 반환해준다.
 FLAG = [
 SEARCH_UP = 0
