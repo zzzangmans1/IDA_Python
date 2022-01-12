@@ -16,6 +16,23 @@ idc.next_head(address) : 주소의 다음 명령 주소를 반환해준다.
 
 idc.prev_head(address) : 주소의 이전 명령 주소를 반환해준다.
 
+get_wide_byte(address) : 주소에 있는 바이트를 반환해준다.
+
+get_wide_word(address) : 주소에 있는 워드를 받환해준다.
+
+get_wide_dword(address) : 주소에 있는 디워드를 반환해준다.
+
+get_qword(address) : 주소에 있는 쿼드를 반환해준다.
+
+ida_bytes.patch_byte(address, value) : 주소에 있는 바이트를 value로 변경한다.
+
+ida_bytes.patch_word(address, value) : 주소에 있는 워드를 value로 변경한다.
+
+ida_bytes.patch_dword(address, value) : 주소에 있는 디워드를 value로 변경한다.
+
+ida_bytes.patch_qword(address, value) : 주소에 있는 쿼드를 value로 변경한다.
+
+
 /* 
   find
 */
